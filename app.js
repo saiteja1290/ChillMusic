@@ -9,13 +9,13 @@ let backward = document.getElementById("one");
 let pause = document.getElementById("four");
 
 let songs = [
-  { songname: "Kaikai Kitan (JJK) - Kijugo", filepath: "/songs/Kaikai Kitan (JJK) - Kijugo.mp3" },
-  { songname: "Kiss Of Death (Darling In The Franxx) - Kijuro", filepath: "/songs/Kiss Of Death (Darling In The Franxx) - Kijuro.mp3" },
-  { songname: "Lost In Paradise (JJK) - Kijugo", filepath: "/songs/Lost In Paradise (JJK) - Kijugo.mp3" },
-  { songname: "My War (AOT) - Kijugo", filepath: "/songs/My War (AOT) - Kijugo.mp3" },
-  { songname: "Shinzo Wo Sasageyo (AOT) - Kijuro", filepath: "/songs/Shinzo Wo Sasageyo (AOT) - Kijuro.mp3" },
-  { songname: "Unravel (Tokyo Ghoul) - Kijugo", filepath: "/songs/Unravel (Tokyo Ghoul) - Kijugo.mp3" },
-  { songname: "kataware doki (Your Name) - Kijugo", filepath: "/songs/kataware doki (Your Name) - Kijugo.mp3" },
+  { songname: "Kaikai Kitan (JJK) - Kijugo", filepath: "/ChillMusic/songs/Kaikai Kitan (JJK) - Kijugo.mp3" },
+  { songname: "Kiss Of Death (Darling In The Franxx) - Kijuro", filepath: "/ChillMusic/songs/Kiss Of Death (Darling In The Franxx) - Kijuro.mp3" },
+  { songname: "Lost In Paradise (JJK) - Kijugo", filepath: "/ChillMusic/songs/Lost In Paradise (JJK) - Kijugo.mp3" },
+  { songname: "My War (AOT) - Kijugo", filepath: "/ChillMusic/songs/My War (AOT) - Kijugo.mp3" },
+  { songname: "Shinzo Wo Sasageyo (AOT) - Kijuro", filepath: "/ChillMusic/songs/Shinzo Wo Sasageyo (AOT) - Kijuro.mp3" },
+  { songname: "Unravel (Tokyo Ghoul) - Kijugo", filepath: "/ChillMusic/songs/Unravel (Tokyo Ghoul) - Kijugo.mp3" },
+  { songname: "kataware doki (Your Name) - Kijugo", filepath: "/ChillMusic/songs/kataware doki (Your Name) - Kijugo.mp3" },
 ];
 let songindex = 0;
 // randomnumber = Math.floor((Math.random() * 5));
