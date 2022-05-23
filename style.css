@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body {
+  background-color: rgb(35, 35, 35);
+  background-image: url(/bgs/cherry.jpg);
+  /* background-size:contain; */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+nav {
+  font-family: "Roboto Flex", sans-serif;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 45px;
+  background-color: black;
+}
+nav ul li {
+  padding: 0 20px;
+}
+.Logo {
+  font-weight: bold;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li a {
+  text-decoration: none;
+}
+.hello{
+  text-align: center;
+  margin: 250px 20px;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.bello{
+  font-size: 20px;
+  font-weight: lighter;
+}
+@media only screen and (max-width: 661px) {
+  /* .center{
+        font-size: 67px;
+        margin: 200px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    } */
+  body {
+    background-image: url(/bgs/cherry.jpg);
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .center {
+    font-size: 20px;
+    /* margin: 200px; */
+    /* text-align: center; */
+    font-family: "Roboto Flex", sans-serif;
+  }
+}

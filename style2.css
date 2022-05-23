@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body {
+  background-color: rgba(44, 34, 43, 255);
+  /* background-image: url(); */
+  background-image: url(/bgs/wallpaperflare.com_wallpaper\ \(1\).jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* #img{
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+nav {
+  font-family: "Roboto Flex", sans-serif;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 45px;
+  background-color: black;
+}
+nav ul li {
+  padding: 0 20px;
+}
+.Logo {
+  font-weight: bold;
+}
+nav ul li a {
+  text-decoration: none;
+}
+.center {
+  font-size: 67px;
+  margin: 200px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.hi {
+  font-size: 25px;
+  margin: -100px;
+}
+/* img{
+    height: 670px;
+} */
+.bottom {
+  position: sticky;
+  bottom: 0;
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  min-height: 80vh;
+  /* border: 2px solid rgb(67, 67, 67); */
+  /* background-image: url(/bgs/); */
+}
+#myprogbar {
+  width: 90vw;
+}
+.icons {
+  margin: 7px 2px;
+  cursor: pointer;
+}
+#one {
+  margin: 0px 20px;
+}
+#three {
+  margin: 0px 20px;
+}
+
+.songinfo {
+  position: absolute;
+  left: 78px;
+  margin-top: -22px;
+  font-size: 25px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: bold;
+}
+#endcredit {
+  font-size: 12px;
+  font-family: "Roboto Flex", sans-serif;
+  /* margin: 20px 20px;
+    padding: 20px 20px; */
+}
+@media only screen and (max-width: 600px) {
+  /* .bottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+  body {
+    background-image: url(/bgs/zenitus.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(7,23,31,255);
+  }
+  .songinfo {
+    position: absolute;
+    left: 109px;
+    /* align-items: center;
+        justify-content: center; */
+    margin-top: 95px;
+    font-size: 14px;
+    font-family: "Roboto Flex", sans-serif;
+  }
+  #endcredit {
+    font-size: 15px;
+    font-family: "Roboto Flex", sans-serif;
+    display: none;
+    /* margin: 20px 20px;
+        padding: 20px 20px; */
+  }
+  #myprogbar {
+    width: 80vw;
+  }
+  .icons {
+    margin: 16px 25px;
+    cursor: pointer;
+  }
+  .bottom {
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
