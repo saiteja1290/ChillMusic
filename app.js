@@ -33,6 +33,29 @@ play.addEventListener("click", () => {
     play.classList.add("fa-play");
     mastersongname.innerHTML = songs[songindex].songname;
   }
+  setInterval(()=>{
+    if (songindex >= 4) {
+      songindex = 0;
+    } else {
+      songindex++;
+    }
+    audioelement = new Audio(songs[songindex].filepath);
+  if (audioelement.paused || audioelement.currentTime == 0) {
+    audioelement.play();
+    play.classList.remove("fa-play");
+    play.classList.add("fa-pause");
+    mastersongname.innerHTML = songs[songindex].songname;
+  } else {
+    audioelement.pause();
+    play.classList.remove("fa-pause");
+    play.classList.add("fa-play");
+    mastersongname.innerHTML = songs[songindex].songname;
+  }
+  audioelement.addEventListener('timeupdate',()=>{
+    howla = parseInt((audioelement.currentTime / audioelement.duration) * 100);
+    myprogbar.value = howla;
+  })
+  }, audioelement.duration * 1000);
 });
 
 if (audioelement.currentTime == audioelement.duration) {
