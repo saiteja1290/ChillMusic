@@ -9,7 +9,7 @@
 body {
   background-color: rgba(44, 34, 43, 255);
   /* background-image: url(); */
-  background-image: url(ChillMusic/bgs/wallpaperflare.com_wallpaper\ \(1\).jpg);
+  background-image: url(/ChillMusic/bgs/wallpaperflare.com_wallpaper\ \(1\).jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -101,7 +101,7 @@ nav ul li a {
         align-items: center;
     } */
   body {
-    background-image: url(/bgs/zenitus.jpg);
+    background-image: url(/ChillMusic/bgs/zenitus.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
