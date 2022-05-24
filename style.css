@@ -9,7 +9,7 @@
 }
 body {
   background-color: rgb(35, 35, 35);
-  background-image: url(/bgs/cherry.jpg);
+  background-image: url(/ChillMusic/bgs/cherry.jpg);
   /* background-size:contain; */
   background-repeat: no-repeat;
   background-position: center;
@@ -55,7 +55,7 @@ nav ul li a {
         font-family: 'Poppins', sans-serif;
     } */
   body {
-    background-image: url(/bgs/cherry.jpg);
+    background-image: url(/ChillMusic/bgs/cherry.jpg);
     /* background-size: contain; */
     background-repeat: no-repeat;
     background-position: center;
