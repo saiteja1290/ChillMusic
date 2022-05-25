@@ -85,7 +85,7 @@ play.addEventListener("click", () => {
 forward.addEventListener("click", () => {
   // Forward
   audioelement.pause();
-  if (songindex >= 4) {
+  if (songindex >= 5) {
     songindex = 0;
   } else {
     songindex++;
@@ -118,7 +118,7 @@ backward.addEventListener("click", () => {
   // backward
   audioelement.pause();
   if ((songindex = 0)) {
-    songindex = 4;
+    songindex = 5;
   } else {
     songindex--;
   }
