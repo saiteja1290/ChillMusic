@@ -14,10 +14,6 @@ let songs = [
     filepath: "/VIBHA/songs/Kaikai Kitan (JJK) - Kijugo.mp3",
   },
   {
-    songname: "Kiss Of Death (Darling In The Franxx) - Kijuro",
-    filepath: "/VIBHA/songs/Kiss Of Death (Darling In The Franxx) - Kijuro.mp3",
-  },
-  {
     songname: "Lost In Paradise (JJK) - Kijugo",
     filepath: "/VIBHA/songs/Lost In Paradise (JJK) - Kijugo.mp3",
   },
